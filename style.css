@@ -1,11 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+body {
+	font-family: 'Poppins', sans-serif;
+}
 #main-header img {
 	height: 100%;
 	width: 100%;
+	filter: grayscale(80%);
 }
+#main-header img:hover {
+	filter: grayscale(10%);
+}
+#alif:hover {
+	transform: scale(1.5);
+	transition-delay: 1s;
+	transition-duration: 2s;
+	color: royalblue;
+	cursor: pointer;
+}
+
 .bg-black {
 	color: #fff;
 	background: black;
 }
+#wd:hover {
+	text-shadow: 5px 5px 10px blue;
+}
+
 #main-header .port-item {
 	width: 30%;
 }
@@ -13,12 +33,29 @@
 	opacity: 0.8;
 	cursor: pointer;
 }
-
+.fab:hover {
+	transform: scale(1.5);
+	transition-delay: 0.5s;
+	transition-duration: 1s;
+}
+.fa-twitter:hover {
+	color: #00acee;
+}
+.fa-facebook:hover {
+	color: #4267b2;
+}
+.fa-instagram:hover {
+	color: #8134af;
+}
+.fa-github:hover {
+	color: #bd2c00;
+}
 @media (min-width: 1199px) {
 	#main-header .port-item {
 		padding: 3em !important;
 	}
 }
+
 #html {
 	color: rgb(255, 64, 0);
 }
@@ -60,4 +97,10 @@
 }
 .progress .bg-laravel {
 	background-color: #ff0000;
+}
+#form-card {
+	background-color: rgb(205, 92, 92);
+}
+.info-footer:hover {
+	text-shadow: 5px 5px 10px black;
 }
