@@ -1,0 +1,63 @@
+#main-header img {
+	height: 100%;
+	width: 100%;
+}
+.bg-black {
+	color: #fff;
+	background: black;
+}
+#main-header .port-item {
+	width: 30%;
+}
+#main-header .port-item:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+@media (min-width: 1199px) {
+	#main-header .port-item {
+		padding: 3em !important;
+	}
+}
+#html {
+	color: rgb(255, 64, 0);
+}
+.progress .bg-html {
+	background: rgb(255, 64, 0);
+}
+#css {
+	color: rgb(0, 128, 255);
+}
+.progress .bg-css {
+	background-color: rgb(0, 128, 255);
+}
+#bootstrap {
+	color: #8000ff;
+}
+.progress .bg-bootstrap {
+	background-color: #8000ff;
+}
+#tailwind {
+	color: #00bfff;
+}
+.progress .bg-tailwind {
+	background-color: #00bfff;
+}
+#js {
+	color: #ffff00;
+}
+.progress .bg-js {
+	background-color: #ffff00;
+}
+#php {
+	color: #5c85d6;
+}
+.progress .bg-php {
+	background-color: #5c85d6;
+}
+#laravel {
+	color: #ff0000;
+}
+.progress .bg-laravel {
+	background-color: #ff0000;
+}
