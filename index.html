@@ -272,16 +272,15 @@
 			integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
 			crossorigin="anonymous"
 		></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
 
 		<script>
 			$('.port-item').click(function () {
 				$('.collapse').collapse('hide');
-			});
-
-			$(document).on('click', '[data-toggle="lightbox"]', function (e) {
-				e.preventDefault();
-				$(this).ekkoLightbox();
 			});
 		</script>
 	</body>
