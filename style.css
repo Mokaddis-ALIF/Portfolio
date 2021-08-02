@@ -10,13 +10,13 @@ body {
 #main-header img:hover {
 	filter: grayscale(10%);
 }
-#alif:hover {
+/* #alif:hover {
 	transform: scale(1.5);
 	transition-delay: 1s;
 	transition-duration: 2s;
 	color: royalblue;
 	cursor: pointer;
-}
+} */
 
 .bg-black {
 	color: #fff;
